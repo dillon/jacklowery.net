@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _index.html
   label: Home Page
-  match: "**/*"
 - type: directory
   path: content
   label: Pages
@@ -19,7 +18,7 @@ front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
 build:
-  preview_command: hugo -E -F -D -b $DEPLOY_URL -d public
+  preview_command: hugo -E -F -D -b $DEPLOY_URL -d docs
   publish_command: hugo -d public
   preview_env:
   - HUGO_ENV=staging
