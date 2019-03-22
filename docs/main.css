@@ -19,7 +19,7 @@ body {
   font-size: 46px;
  }
  body h2 {
-   padding-bottom: 40px;
+  padding-bottom: 40px;
  }
 }
 
@@ -41,7 +41,7 @@ h1 {
 }
 
 h1 a {
-  text-decoration: none;
+ text-decoration: none;
 }
 
 h2 {
